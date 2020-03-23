@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youfan.mappers.YinxiaoMapper">
+
+    <select id="tuangouStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from tuangouStatistics
+  </select>
+
+    <select id="tuangouMonthStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from tuangouMonthStatistics
+  </select>
+
+    <select id="conpusStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from conpusStatistics
+  </select>
+
+    <select id="conpusMonthStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from conpusMonthStatistics
+  </select>
+
+    <select id="miaoshaStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from miaoshaStatistics
+  </select>
+
+    <select id="miaoshaMonthStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from miaoshaMonthStatistics
+  </select>
+
+    <select id="huodongStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from huodongStatistics
+  </select>
+
+    <select id="huodongMonthStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from huodongMonthStatistics
+  </select>
+
+    <select id="hongbaoStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from hongbaoStatistics
+  </select>
+
+    <select id="hongbaoMonthStatistics" resultType="com.youfan.viewResult.YinxiaoResult">
+      select * from hongbaoMonthStatistics
+  </select>
+
+</mapper>

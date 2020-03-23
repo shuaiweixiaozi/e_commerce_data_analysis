@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youfan.mappers.LiuLiangMapper">
+    <select id="syletypestatistics" resultType="com.youfan.viewResult.Syletypestatistics">
+      select * from syletypestatistics
+  </select>
+
+    <select id="syletypedaystatistics" resultType="com.youfan.viewResult.Syletypestatistics">
+      select * from syletypedaystatistics
+  </select>
+
+    <select id="syletypemonthstatistics" resultType="com.youfan.viewResult.Syletypestatistics">
+      select * from syletypemonthstatistics
+  </select>
+
+    <select id="cartcarstatistics" resultType="com.youfan.viewResult.Cartcarstatistics">
+      select * from cartcarstatistics
+  </select>
+
+    <select id="cartcardaystatistics" resultType="com.youfan.viewResult.Cartcarstatistics">
+      select * from cartcardaystatistics
+  </select>
+
+    <select id="cartcarmonthstatistics" resultType="com.youfan.viewResult.Cartcarstatistics">
+      select * from cartcarmonthstatistics
+  </select>
+
+
+</mapper>
